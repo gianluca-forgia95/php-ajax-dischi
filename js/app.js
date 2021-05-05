@@ -2,15 +2,13 @@ var root = new Vue({
     el: '#root',
      data: {
        albums: [],
-    //    genres: [],
-    //    selected: "",
     
     
         },
        mounted: function() {
-         axios.get('')
+         axios.get('http://localhost/php-ajax-dischi/api.php')
          .then( (resp) => {
-            this.albums =  resp.data.response;
+            this.albums = resp.data;
           
           
          
