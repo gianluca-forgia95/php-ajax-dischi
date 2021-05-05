@@ -1,12 +1,9 @@
 <?php 
-    include __DIR__ . '/data.php'; 
-    include __DIR__ . '/head.php'; 
+    include __DIR__ . '/partials/data.php'; 
+    include __DIR__ . '/partials/head.php'; 
 ?>
 
 <body>
-
-
- 
  <!-- Logo -->
      <header>
       <div class="logo">

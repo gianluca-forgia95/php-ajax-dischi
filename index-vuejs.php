@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <?php
-include __DIR__ . '/head.php';
+ include __DIR__ .'/partials/head.php';
 ?>
   <body>
 
