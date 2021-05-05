@@ -1,3 +1,8 @@
 //Colors 
 $bgColor: #1E2D3B;
 $secondaryBg: #2E3A46;
+
+@mixin flexCenter {
+display: flex; 
+align-items: center;
+}
