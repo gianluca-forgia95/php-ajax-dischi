@@ -8,3 +8,39 @@
     font-family: 'Lato', sans-serif;
     background-color: $bgColor;
   }
+
+  .container-albums {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1020px;
+    margin: auto;
+  }
+  .album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    height: 400px;
+    flex-basis:  calc(20% - 10px);
+    margin: 10px;
+    background-color: $secondaryBg;
+  }
+  .title-album {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+  }
+  .album img {
+    max-width: 220px;
+    max-height: 200px;
+  }
+  .text-grey {
+    color: grey;
+  }
+  .author {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 4px 0;
+  }
