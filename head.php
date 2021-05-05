@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <!-- /VueJs -->
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/app.css">
     <!-- /CSS -->
     <title>Dischi</title>
   </head>
